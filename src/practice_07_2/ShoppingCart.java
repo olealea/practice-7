@@ -12,7 +12,9 @@ public class ShoppingCart {
         sb.append(" Smith");
 
         System.out.println(sb);
-        
+
+        sb.append(custName.substring(0,spaceIdx));
+        System.out.println(sb);
         //Instantiate and initialize sb to firstName.
         
 
