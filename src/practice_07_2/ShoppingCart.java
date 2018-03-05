@@ -4,27 +4,22 @@ package practice_07_2;
 
 public class ShoppingCart {
     public static void main(String[] args) {
+        int int1 = 1;
+        long long1 = 20;
+        float float1 = 0.1f;
+        char char1 = 'A';
 
-        String custName = "Steve Smith";
-        int spaceIdx = custName.indexOf(" ");
-        String firstName= custName.substring(0,spaceIdx);
-        StringBuilder sb = new StringBuilder(firstName);
-        sb.append(" Smith");
+        System.out.println("Long simply output: " +long1);
 
-        System.out.println(sb);
+        int1 = (int) long1;
 
-        sb.append(custName.substring(0,spaceIdx));
-        System.out.println(sb);
-        //Instantiate and initialize sb to firstName.
-        
+        System.out.println("Long assigned to int: " +int1);
 
-	// Put the full name back together, using StringBuilder append method.
-	// You can just enter the String literal for the last name.
-	// Print the full name.
-        
-	
-	// (Optional) Can you append the last name without using a String literal?
+        // Declare and initialize variables of type long, float, and char.
 
+        // Print the long variable.
+
+        // Assign the long to the int and print the int variable.
 
     }
 }
